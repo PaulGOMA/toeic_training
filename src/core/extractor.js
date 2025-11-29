@@ -69,6 +69,37 @@ class JSONExtractor
 
         return answers;
     }
+
+    async extractSet(index = 0) {
+        let data = await this.extractData();
+        const numberOfSets = data ? data.length : 0;
+
+        if(data && index >= 0 && index < numberOfSets) {
+            return data[index];
+        } else {
+            console.log(`No question set found at index ${index}.`);
+            return null;
+        }
+    }
+
+    async extractQuestionSet(index = 0) {
+        let data = await this.extractSet(index);
+
+        if(data) {
+            return data.questions.map(item => item.text);
+        } else {
+            return [];
+        }
+    }
+
+    async extractChoicesSet(index = 0) {
+        let data = await this.extractSet(index);    
+        if(data) {
+            return data.questions.map(item => item.choices);
+        } else {
+            return [];
+        }       
+    }
 }
 
 export default JSONExtractor;
