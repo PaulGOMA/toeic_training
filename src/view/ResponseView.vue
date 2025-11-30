@@ -16,7 +16,7 @@ onMounted(() => {
 
 function restartQuiz() {
     ResponseManager.clearResults()
-    router.push('/')
+    router.push('/quizz')
 }
 </script>
 
