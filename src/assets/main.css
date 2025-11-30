@@ -1,0 +1,125 @@
+@import './base.css';
+@import 'primeicons/primeicons.css';
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.timer-container {
+  width: fit-content;
+  height: auto;
+  display: flex;
+  align-items: center;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #f6f7f2;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  background-color: #29333e;
+  gap: 0.75rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.question-item {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0.5rem 0;
+  padding: 0.75rem 1rem;
+}
+
+.choices-Container, .choices-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.choices-Container {
+  margin-top: 1rem;
+  gap: 1rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.choices-list {
+  display: flex;
+  flex-direction: column;
+
+  gap: 0.125rem;
+  margin-top: 0.0125rem;
+}
+
+.choice-item {
+  padding: 0rem 2rem 1rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.quizz-container, .card-content {
+  max-width: 800px;
+  width: 100%;
+  padding: 2rem;
+  margin: 2rem auto;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.quizz-view {
+  margin-top: 2rem;
+  height: 100%;
+}
+
+.card-timer-container{
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 0 2.5rem;
+}
+
+.footer-container {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.profil-link {
+  text-decoration: none;
+  font-weight: 700;
+  outline: none;        /* supprime le contour par défaut */
+}
+
+.profil-link:focus,
+.profil-link:focus-visible {
+  outline: none;        /* supprime le contour focus */
+  box-shadow: none;     /* supprime tout effet d’ombre éventuel */
+  border-bottom: 2px solid #059669; /* souligne au focus */
+}
+
+.profil-link:hover {
+  color: #059669;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
