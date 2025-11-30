@@ -1,0 +1,102 @@
+[
+  {
+    "id": "set1",
+    "questions": [
+      {
+        "text": "Where is the conversation most likely taking place?",
+        "choices": ["Location", "Future action", "Relationship"],
+        "correctIndex": 0
+      },
+      {
+        "text": "What problem does the woman mention?",
+        "choices": ["Numeric detail", "Location", "Concern or issue"],
+        "correctIndex": 2
+      },
+      {
+        "text": "What will the man probably do next?",
+        "choices": ["Initial intention", "Future action", "Relationship"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "set2",
+    "questions": [
+      {
+        "text": "Why is the man calling?",
+        "choices": ["Location", "Purpose or intention", "Numeric detail"],
+        "correctIndex": 1
+      },
+      {
+        "text": "What does the woman suggest?",
+        "choices": ["Document reference", "Concern", "Future action"],
+        "correctIndex": 2
+      },
+      {
+        "text": "What will happen next?",
+        "choices": ["Relationship", "Location", "Future action"],
+        "correctIndex": 2
+      }
+    ]
+  },
+  {
+    "id": "set3",
+    "questions": [
+      {
+        "text": "What does the speaker imply about the budget?",
+        "choices": ["Location", "Paraphrase or implication", "Numeric detail"],
+        "correctIndex": 1
+      },
+      {
+        "text": "When is the presentation scheduled?",
+        "choices": ["Concern", "Future action", "Numeric detail"],
+        "correctIndex": 2
+      },
+      {
+        "text": "Who is the woman speaking to?",
+        "choices": ["Document reference", "Relationship", "Location"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "set4",
+    "questions": [
+      {
+        "text": "According to the chart, which item increased the most?",
+        "choices": ["Concern", "Document interpretation", "Future action"],
+        "correctIndex": 1
+      },
+      {
+        "text": "What does the man say about the schedule?",
+        "choices": ["Concern", "Location", "Numeric detail"],
+        "correctIndex": 2
+      },
+      {
+        "text": "Which of the following is NOT mentioned?",
+        "choices": ["Paraphrase", "Mention or exclusion", "Relationship"],
+        "correctIndex": 1
+      }
+    ]
+  },
+  {
+    "id": "set5",
+    "questions": [
+      {
+        "text": "What is the woman mainly concerned about?",
+        "choices": ["Location", "Concern or issue", "Numeric detail"],
+        "correctIndex": 1
+      },
+      {
+        "text": "What is implied by the man's comment?",
+        "choices": ["Future action", "Document reference", "Paraphrase or implication"],
+        "correctIndex": 2
+      },
+      {
+        "text": "What does the speaker mean when he says 'That’s not ideal'?",
+        "choices": ["Numeric detail", "Location", "Paraphrase or implication"],
+        "correctIndex": 2
+      }
+    ]
+  }
+]
