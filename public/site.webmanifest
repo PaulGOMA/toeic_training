@@ -1,0 +1,23 @@
+{
+    "name": "TOEIC Training Application",
+    "short_name": "TOEIC App",
+    "description": "Training app to improve TOEIC reflexes and comprehension under time constraints.",
+    "start_url": "/",
+    "scope": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "theme_color": "#29333e",
+    "background_color": "#f6f7f2",
+    "icons": [
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
